@@ -8,12 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build && vite preview --host",
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "preview": "vite build && vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
