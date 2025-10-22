@@ -1,5 +1,6 @@
 {
   "name": "lab6_form",
+  "homepage": "https://ycjuliana.github.io/feedback_form/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build && vite preview --host"
+    "preview": "vite build && vite preview --host",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
